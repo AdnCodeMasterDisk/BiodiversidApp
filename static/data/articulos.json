@@ -1,0 +1,26 @@
+[
+    {
+        "index": 1,
+        "nombre": "Articulo 1 - la rana y su valor incalculable en el ecosistema",
+        "imagen": "https://img.freepik.com/fotos-premium/rana-voladora-rhacophorus-reinwardtii_146081-95.jpg?w=740",
+        "descripcion": "La Rana Andina es una especie nativa de las regiones montañosas. Es conocida por su capacidad para sobrevivir en altitudes extremas."
+    },
+    {
+        "index": 2,
+        "nombre": "Articulo 2 -  El condor tan solo y sencillamente el ave más importante de Colombia",
+        "imagen": "https://img.freepik.com/foto-gratis/condor-andino-area-salvaje_1398-3980.jpg?t=st=1715379234~exp=1715382834~hmac=cd3ab40014db75a49c89e09be8952bd753039990a0d4b62c0861771b753b5ed8&w=1060",
+        "descripcion": "El Cóndor es una de las aves voladoras más grandes del mundo y es un símbolo nacional en muchos países andinos."
+    },
+    {
+        "index": 3,
+        "nombre": "Articulo 3 - Polinizadores, tan importantes como el agua o el mismo aire, sin ellos nadaseria como lo conocemos hoy.",
+        "imagen": "https://img.freepik.com/foto-gratis/disparo-enfoque-selectivo-colibri-vuelo_181624-56855.jpg?t=st=1715379289~exp=1715382889~hmac=3688dcff27da7be332752116a86b8c4a6940ea813a1bcd41abce4fb9b5e10ed3&w=826",
+        "descripcion": "El Colibrí Andino es famoso por su colorido plumaje y su habilidad para volar en todas direcciones."
+    },
+    {
+        "index": 4,
+        "nombre": "Articulo 4 - La riqueza de nuestros bosques andinos son nuestras especies unicas en el mundo",
+        "imagen": "https://img.freepik.com/fotos-premium/primer-plano-mono-arbol_1048944-21200861.jpg?w=740",
+        "descripcion": "El Oso Andino, también conocido como oso de anteojos, es el único oso nativo de Sudamérica."
+    }
+]

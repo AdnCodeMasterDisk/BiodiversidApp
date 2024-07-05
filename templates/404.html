@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodiversidap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,300,0,0" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/swiper-bundle.min.css') }}" />
+</head>
+
+<body >
+    <div class="boxerror">
+        <!-- Imagenes temportales utiles para testing, remplazar en caso de uso comercial aunque la imagen es de uso libre -->
+        <img src="https://img.freepik.com/vector-gratis/error-404-perdido-ilustracion-concepto-espacio_114360-7901.jpg?t=st=1720133720~exp=1720137320~hmac=72121b339021d4200912cfbb027e808643b95fb267d4e1c82f16c33dce389aab&w=826" alt="">
+        <p>Lo sentimos, la página que estás buscando no existe.</p>
+        <a href="{{ url_for('home') }}">Volver a la página principal</a>
+    </div>
+</body>
+</html>

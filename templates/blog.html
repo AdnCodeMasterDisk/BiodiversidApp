@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodiversidap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,300,0,0" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/swiper-bundle.min.css') }}" />
+</head>
+
+<body style="background-color: rgb(0, 0, 2);">
+
+    <div class="screnlist" id="ScreenPrinciapal">
+        <a class="boxmenu" href="{{ url_for('estadisticas')}}">
+            <span class="material-symbols-rounded">query_stats</span>
+        </a>
+
+      
+
+        <div class="boxfondointerna" style="background-image: url(https://img.freepik.com/foto-gratis/hermosa-flor-rosa-fresca-pistilo-amarillo_23-2148060261.jpg?t=st=1715379553~exp=1715383153~hmac=bf8bde1b42e6696e704f81c489063b16698e5c13efb111a415188bdd64feac51&w=1380);">
+            <div class="layerfondointerna"></div>
+        </div>
+
+        <div class="buttomNav">
+            <a href="{{ url_for('home') }}" class="itemnav">
+                <span class="material-symbols-rounded">
+                    home
+                </span>
+            </a>
+            <a href="{{ url_for('mapa') }}" class="itemnav">
+                <span class="material-symbols-rounded">
+                    map
+                </span>
+            </a>
+            <a href="{{ url_for('blog') }}" class="itemnav">
+                <span class="material-symbols-rounded">
+                    newsstand
+                </span>
+            </a>
+        </div>
+
+        <div class="bostitle">
+            <h1 class="titulo">Blog</h1>
+            <h1 class="subtitulo">Diversidad Andina</h1>
+            <p class="labeltitulo">Nuestro mayor tesoro</p>
+        </div>
+
+     
+        <div class="listadotodos">
+           
+        </div>
+    </div>
+
+    <div class="screendetall hide" id="ScreenDetail">
+        <div class="boxatras" onclick="HidedetaillScreen()">
+            <span class="material-symbols-rounded">
+                navigate_before
+            </span>
+            <p>
+                Atrás
+            </p>
+        </div>
+        <div class="contentdetail">
+            <div class="col1">
+                <div class="boxfondodetaill" id="detalleImagen">
+                    <div class="layerfondodetail"></div>
+                </div>
+                <div class="boxdetail">
+                    <h1 class="titulodetaill" id="detalleNombre">Nombre</h1>
+                    <h1 class="subtitulodetaill">Especie nativa</h1>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="contenidodetail">
+                    <div class="boxlocFav">
+                        <div class="boxlocation">
+                            <div class="boxiconlocationdetail">
+                                <span class="material-symbols-rounded">location_on</span>
+                            </div>
+                            <div class="locationdetails">
+                                <p class="locationtext">Cocui</p>
+                                <p class="detartamento">Boyáca</p>
+                            </div>
+                        </div>
+                        <div class="boxfavorite">
+                            <div class="boxfavoritosdetailcontent">
+                                <p class="subtitlefavortedetail">Agregar a mis</p>
+                                <p class="titlefavoritedetail">Favoritos</p>
+                            </div>
+                            <div class="boxiconfavoritedetail">
+                                <span class="material-symbols-rounded">favorite</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contenttextdetail">
+                        <p id="detalleDescripcion">Descripción</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/blog.js') }}"></script>
+
+</body>
+
+</html>
